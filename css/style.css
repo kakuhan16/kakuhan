@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+  body{font-family: "Shippori Mincho B1", serif;}
+  h1,h2{
+    font-family:"Noto Serif", serif;
+  }
+  body {
+  margin: 0;
+  font-family: serif;
+  background-image: url("../img/bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+@media (max-width: 600px) {
+  body {
+    background-attachment: scroll;
+  }
+}
+.container {
+  background-color: rgb(255, 255, 255);
+  max-width: 800px;
+  margin: 60px auto;
+  padding: 40px;
+}
+@media (max-width: 600px) {
+  .container {
+    margin: 20px;
+    padding: 20px;
+  }
+}
